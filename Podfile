@@ -5,8 +5,9 @@ use_frameworks!
 
 def shared_pods
   # OWS Pods
+  pod 'AxolotlKit',   path: '../SignalProtocolKit'
   pod 'SignalServiceKit', path: '.'
-  pod 'AxolotlKit', git: 'https://github.com/WhisperSystems/SignalProtocolKit.git', branch: 'mkirk/framework-friendly'
+  # pod 'AxolotlKit', git: 'https://github.com/WhisperSystems/SignalProtocolKit.git', branch: 'mkirk/framework-friendly'
   #pod 'AxolotlKit', path: '../SignalProtocolKit'
   pod 'HKDFKit', git: 'https://github.com/WhisperSystems/HKDFKit.git', branch: 'mkirk/framework-friendly'
   #pod 'HKDFKit', path: '../HKDFKit'
