@@ -1,5 +1,4 @@
 PODS:
-  - 25519 (2.0.2)
   - AFNetworking (3.1.0):
     - AFNetworking/NSURLSession (= 3.1.0)
     - AFNetworking/Reachability (= 3.1.0)
@@ -16,9 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - ATAppUpdater (2.0)
-  - AxolotlKit (0.8.1):
-    - 25519 (~> 2.0.1)
+  - AxolotlKit (0.9.0):
     - CocoaLumberjack
+    - Curve25519Kit (~> 2.1.0)
     - HKDFKit (~> 0.0.3)
     - ProtocolBuffers (~> 1.9.8)
   - CocoaLumberjack (3.3.0):
@@ -181,10 +180,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/facebook/SocketRocket.git
 
 SPEC CHECKSUMS:
-  25519: dc4bad7e2dbcbf1efa121068a705a44cd98c80fc
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   ATAppUpdater: a9f7027060959d47e58733d3b48f6b9a28cb8de1
-  AxolotlKit: ba0ab24b879d34559a68e1270b079cc9bd7b3417
+  AxolotlKit: 7cfd2e71329b8dc398734e95b936450a2081fd60
   CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
   Curve25519Kit: 76d0859ecb34704f7732847812363f83b23a6a59
   GRKOpenSSLFramework: 8a3735ad41e7dc1daff460467bccd32ca5d6ae3e
